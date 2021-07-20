@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,500,700");
+
+body {
+  background-color: blanchedalmond;
+  text-align: center;
+}
+
+/*--- Bootstrap Padding Fix --*/
+[class*="col-"] {
+  padding: 1rem;
+}
+.desc {
+  font-weight: 400;
+}
+.desc2 {
+  font-size: smaller;
+}
+.login__input {
+  border: none;
+  padding: 0.5rem 2rem;
+  font-size: 1.6rem;
+  text-align: center;
+  width: 17rem;
+  border-radius: 10rem;
+  transition: all 0.3s;
+}
+
+p {
+  font-style: italic;
+  color: #5bc0de;
+}
+/*
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+*/

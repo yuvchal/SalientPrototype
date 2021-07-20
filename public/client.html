@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>My app</title>
+    <!-- <script data-main="scripts/app" src="scripts/require.js"></script> -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+      integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+      integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+      crossorigin="anonymous"
+    ></script>
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- Description -->
+    <div class="container-fluid">
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+        <p class="lead">My app</p>
+      </div>
+    </div>
+
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+      <h1 class="desc">
+        Welcome to my app. Here you can manage employee skills and
+        certifications.
+      </h1>
+      <h2 class="desc2">
+        *Made as a prototype for Salient CRGT as a summer intern*
+      </h2>
+    </div>
+
+    <!--- Three Column Login -->
+    <div class="container-fluid padding">
+      <div class="row">
+        <div class="col-xs-12 col-sm-6 col-lg-6">
+          <h3>User ID</h3>
+          <input
+            type="email"
+            placeholder="user"
+            class="login__input login__input--user"
+          />
+          <p>Email address</p>
+        </div>
+
+        <div class="col-xs-12 col-sm-6 col-lg-6">
+          <h3>User Password</h3>
+          <input
+            type="password"
+            placeholder="PIN"
+            minlength="8"
+            class="login__input login__input--password"
+          />
+          <p>Minimum of 8 characters</p>
+          <button type="button" class="btn view">👁️</button>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-12 col-md-12">
+          <button type="button" class="btn btn-info login">Login</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
