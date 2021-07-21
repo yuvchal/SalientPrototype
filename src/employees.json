@@ -1,15 +1,36 @@
 [
-    {
-      "name": "chahal.s.yuvraj@gmail.com",
-      "skills": 12341234,
-      "certifications": "le cuh",
-      "id": 1
-    },
-  
-    {
-      "name": "chahal.jaswinder@gmail.com",
-      "skills": 12345678,
-      "certifications": "temp",
-      "id": 2
-    }
-  ]
+  {
+    "name": "Yuvraj Chahal",
+    "skills": 12341234,
+    "certifications": "le cuh",
+    "id": 1
+  },
+
+  {
+    "name": "Jaswinder Singh",
+    "skills": 12345678,
+    "certifications": "temp",
+    "id": 2
+  },
+
+  {
+    "name": "John Doe",
+    "skills": 12345678,
+    "certifications": "temp",
+    "id": 3
+  },
+
+  {
+    "name": "Steven Jackson",
+    "skills": 12345678,
+    "certifications": "temp",
+    "id": 4
+  },
+
+  {
+    "name": "Jane Doe",
+    "skills": 12345678,
+    "certifications": "temp",
+    "id": 5
+  }
+]
