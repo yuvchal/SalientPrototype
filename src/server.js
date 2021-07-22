@@ -41,6 +41,13 @@ const create = async () => {
     });
   });
 
+  app.get('/getInfo', function (req, res) {
+    fs.readFile(__dirname + '/employees.json', 'utf8', function (err, data) {
+      console.log('data: ', data);
+      res.end(data);
+    });
+  });
+
   app.post('/auth', function (req, res) {
     console.log('auth called');
     console.log(req.body);

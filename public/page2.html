@@ -26,7 +26,7 @@
     integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
     crossorigin="anonymous"
   ></script>
-  <link href="style2.css" rel="stylesheet" />
+  <link href="style.css" rel="stylesheet" />
   </head>
   <body>
     <!-- Description -->
@@ -56,42 +56,15 @@
                   <th scope="col">Name</th>
                   <th scope="col">Skills</th>
                   <th scope="col">Certifications</th>
-                  <th scope="col">          <button type="button" class="btn btn-info edit">
+                  <th scope="col">          
+                    <button type="button" class="btn btn-info edit">
                     Edit info
-                  </button></th>
+                  </button>
+                  </th>
                 </tr>
               </thead>
-              <tbody>
-                <tr>
-                  <th scope="row">Yuvraj Chahal</th>
-                  <td>Java</td>
-                  <td>None</td>
-                  <td>TEMP</td>
-                </tr>
-                <tr>
-                  <th scope="row">Jaswinder Singh</th>
-                  <td>Testing</td>
-                  <td>1,2,3</td>
-                  <td>TEMP</td>
-                </tr>
-                <tr>
-                  <th scope="row">John Doe</th>
-                  <td>12345678</td>
-                  <td>temp</td>
-                  <td>TEMP</td>
-                </tr>
-                <tr>
-                  <th scope="row">Steven Jackson</th>
-                  <td>9,8,7</td>
-                  <td>temp</td>
-                  <td>TEMP</td>
-                </tr>
-                <tr>
-                  <th scope="row">Jane Doe</th>
-                  <td>HTML</td>
-                  <td>Public</td>
-                  <td>TEMP</td>
-                </tr>
+              <tbody id = "body">
+                <!-- Gets filled by employees.json upon login -->
               </tbody>
             </table>
         </div>
